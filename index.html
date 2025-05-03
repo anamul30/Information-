@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Student Service Portfolio">
+  <meta name="keywords" content="portfolio, student, services, mechanical">
+  <meta name="author" content="MD Anamul Hoque">
+  <title>Student Service Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Navbar -->
+  <header id="navbar">
+    <nav>
+      <h1>Student Portfolio</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="training.html">Training</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button id="theme-toggle">Dark Mode</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2 id="typing-text"></h2>
+    <p>Welcome to my professional student portfolio website.</p>
+    <a href="cv.pdf" download class="btn">Download CV</a>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <div class="image-grid">
+      <img src="img1.jpg" alt="Image 1">
+      <img src="img2.jpg" alt="Image 2">
+      <img src="img3.jpg" alt="Image 3">
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      <p>"Anamul is a very sincere and hardworking student."</p>
+      <span>- Instructor</span>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop">Top</button>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <span id="year"></span> MD Anamul Hoque. All rights reserved.</p>
+    <div class="social-share">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <button onclick="window.print()">Print</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.btn {
+  background-color: #ff6f61;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+/* Gallery Section */
+.gallery {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.image-grid img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonial p {
+  font-style: italic;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact input, .contact textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #ff6f61;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Back to Top Button */
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  display: none;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-share a {
+  margin: 0 10px;
+  color: #fff;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+header.dark-mode {
+  background-color: #222;
+}
+
+footer.dark-mode {
+  background-color: #222;
+}
