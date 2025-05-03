@@ -23,11 +23,11 @@
 
   <section class="about container">
     <div class="about-image">
-      <img src="https://i.imgur.com/51nNDDi.jpeg" alt="আব্দুস সালাম">
+      <img src="images/profile.jpg" alt="আব্দুস সালাম">
     </div>
     <div class="about-text">
       <h2>আব্দুস সালাম</h2>
-      <p>আমি একজন আরবি বিদ্যালয়ের ছাত্র... (পুরো বায়ো এখানে থাকবে)</p>
+      <p>আমি একজন আরবি বিদ্যালয়ের ছাত্র... (সম্পূর্ণ বায়ো এখানে থাকবে)</p>
     </div>
   </section>
 
