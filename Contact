@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <title>যোগাযোগ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>যোগাযোগ</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">হোম</a></li>
+          <li><a href="about.html">আমার সম্পর্কে</a></li>
+          <li><a href="services.html">প্রোগ্রাম</a></li>
+          <li><a href="education.html">আমার পড়াশোনা</a></li>
+          <li><a href="contact.html">যোগাযোগ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact container">
+    <p>ফোন: 01309203794</p>
+    <p>ইমেইল: mdabsalamassad@gmail.com</p>
+    <p>ঠিকানা: কৃষ্ণপুর, ফুলবাড়িয়া, ময়মনসিংহ</p>
+  </section>
+
+  <footer class="footer">
+    <p>© ২০২৫ আব্দুস সালাম</p>
+  </footer>
+</body>
+</html>
