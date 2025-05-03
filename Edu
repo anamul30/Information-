@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <title>আমার পড়াশোনা</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>আমার পড়াশোনা</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">হোম</a></li>
+          <li><a href="about.html">আমার সম্পর্কে</a></li>
+          <li><a href="services.html">প্রোগ্রাম</a></li>
+          <li><a href="education.html">আমার পড়াশোনা</a></li>
+          <li><a href="contact.html">যোগাযোগ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container">
+    <h2>শিক্ষা জীবন</h2>
+    <p>গ্রামের মক্তব থেকে শুরু করে... (পড়াশোনার বিস্তারিত)</p>
+  </section>
+
+  <footer class="footer">
+    <p>© ২০২৫ আব্দুস সালাম</p>
+  </footer>
+</body>
+</html>
