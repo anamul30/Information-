@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <title>প্রোগ্রাম</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>প্রোগ্রাম</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">হোম</a></li>
+          <li><a href="about.html">আমার সম্পর্কে</a></li>
+          <li><a href="services.html">প্রোগ্রাম</a></li>
+          <li><a href="education.html">আমার পড়াশোনা</a></li>
+          <li><a href="contact.html">যোগাযোগ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="services container">
+    <div class="service-card">
+      <h3>দক্ষতা</h3>
+      <p>ডিজাইন, বই সমালোচনা, আরবি, উর্দু ভাষা...</p>
+    </div>
+    <div class="service-card orange">
+      <h3>বর্তমান অবস্থান</h3>
+      <p>RNJS Foundation - ডিজাইনার</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© ২০২৫ আব্দুস সালাম</p>
+  </footer>
+</body>
+</html>
